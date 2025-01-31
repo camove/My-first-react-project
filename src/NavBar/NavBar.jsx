@@ -5,6 +5,7 @@ import { AuthContext } from "../Context/AuthContext";
 import Logout from "../06 Logout/Logout";
 import DeleteAccount from "../07 DeleteAccount/DeleteAccount";
 import SessionEnded from "../Utils/SessionEnded";
+import logo from '.assets/Logo.png'
 
 const NavBar = () => {
   const {
@@ -131,7 +132,7 @@ const NavBar = () => {
         </div>
 
         <div>
-          <img className={styles.logo} src="./assets/Logo.png" alt="logo" />
+          <img className={styles.logo} src={logo} alt="logo" />
         </div>
         <div className={styles.slogan}>
           <h2>Discover your</h2>
