@@ -1,0 +1,25 @@
+* {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    box-sizing: border-box;
+    font-family: Kanit;
+  }
+  
+  html {
+    font-size: 62.5%;
+  }
+
+  :root {
+    --rose: #f72585;
+    --violet-eggplant: #b5179e;
+    --purple-heart: #7209b7;
+    --purple-heart-3: #560bad;
+    --purple-heart-4: #480ca8;
+    --ultramarine: #3a0ca3;
+    --purple-heart-6: #3f37c9;
+    --blue-ribbon: #4361ee;
+    --cornflower-blue: #4895ef;
+    --seagull: #4cc9f0;
+  }
+ 
