@@ -5,7 +5,7 @@ import { AuthContext } from "../Context/AuthContext";
 import Logout from "../06 Logout/Logout";
 import DeleteAccount from "../07 DeleteAccount/DeleteAccount";
 import SessionEnded from "../Utils/SessionEnded";
-import logo from '.assets/Logo.png'
+import logo from './assets/Logo.png'
 
 const NavBar = () => {
   const {
