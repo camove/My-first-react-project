@@ -5,7 +5,9 @@ import { AuthContext } from "../Context/AuthContext";
 import Logout from "../06 Logout/Logout";
 import DeleteAccount from "../07 DeleteAccount/DeleteAccount";
 import SessionEnded from "../Utils/SessionEnded";
-import logo from '../assets/Logo.png'
+import logo from '../assets/Logo.png';
+import xMark from "../assets/xmark.svg";
+import bars from "../assets/bars.svg";
 
 const NavBar = () => {
   const {
@@ -145,11 +147,11 @@ const NavBar = () => {
         {/* daca isMenuOpen este true se afiseaza iconita X, daca nu iconita 'hamburger'*/}
         {isMenuOpen ? (
           <div className={styles.closeIcon}>
-            <img src="../assets/xmark.svg" />
+            <img src={xMark} />
           </div>
         ) : (
           <div className={styles.hamburgerIcon}>
-            <img src="../assets/bars.svg" />
+            <img src={bars} />
           </div>
         )}
       </button>

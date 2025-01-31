@@ -1,5 +1,9 @@
 import React from 'react';
 import styles from './Footer.module.css';
+import instagram from "../assets/instagram.svg";
+import twitter from "../assets/x-twitter.svg";
+import facebook from "../assets/facebook-f.svg";
+
 
 const Footer = () => {
   return (
@@ -14,13 +18,13 @@ const Footer = () => {
           <h2>Follow Us</h2>
           <div className={styles.socialIcons}>
             <a href="https://facebook.com" target="_blank" rel="noopener noreferrer">
-              <img src="../assets/facebook-f.svg" alt="Facebook" />
+              <img src={facebook} alt="Facebook" />
             </a>
             <a href="https://twitter.com" target="_blank" rel="noopener noreferrer">
-              <img src="../assets/x-twitter.svg" alt="Twitter" />
+              <img src={twitter} alt="Twitter" />
             </a>
             <a href="https://instagram.com" target="_blank" rel="noopener noreferrer">
-              <img src="../assets/instagram.svg" alt="Instagram" />
+              <img src={instagram} alt="Instagram" />
             </a>
           </div>
         </div>
