@@ -5,6 +5,8 @@ import { collection, query, where, getDocs } from "firebase/firestore";
 import { AuthContext } from "../Context/AuthContext";
 import { db } from "../../firebase";
 import toast, { Toaster } from "react-hot-toast";
+import email from "../assets/envelope.svg";
+import lock from "../assets/lock.svg";
 
 const Login = () => {
   const { setUserId, setLoggedIn, timerLogout } = useContext(AuthContext); //cu useContext accesam setUserId si setLoggedIn din AuthCOntext pentru a le actualiza si pt a le putea folosi in alte componente
@@ -84,7 +86,7 @@ const Login = () => {
               required
             />
             <div className={styles.inputIcons}>
-              <img src="../assets/envelope.svg" />
+              <img src={email} />
             </div>
           </div>
           <div className={styles.inputCell}>
@@ -98,7 +100,7 @@ const Login = () => {
               required
             />
             <div className={styles.inputIcons}>
-              <img src="../assets/lock.svg" />
+              <img src={lock} />
             </div>
           </div>
 
