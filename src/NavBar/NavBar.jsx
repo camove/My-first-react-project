@@ -131,7 +131,7 @@ const NavBar = () => {
         </div>
 
         <div>
-          <img className={styles.logo} src="./../assets/Logo.png" alt="logo" />
+          <img className={styles.logo} src="../assets/Logo.png" alt="logo" />
         </div>
         <div className={styles.slogan}>
           <h2>Discover your</h2>
