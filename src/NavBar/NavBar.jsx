@@ -183,7 +183,7 @@ const NavBar = () => {
               <div>
                 <img
                   className={styles.logo}
-                  src="/src/assets/logo.png"
+                  src={logo}
                   alt="logo"
                 />
               </div>
@@ -282,7 +282,7 @@ const NavBar = () => {
               <div>
                 <img
                   className={styles.logo}
-                  src="/src/assets/logo.png"
+                  src={logo}
                   alt="logo"
                 />
               </div>
