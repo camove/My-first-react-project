@@ -1,7 +1,7 @@
 import React from "react";
 import styles from "./Logout.module.css";
 import Modal from "react-modal";
-import { AuthContext } from "../context/AuthContext";
+import { AuthContext } from "../Context/AuthContext";
 import { useNavigate } from "react-router-dom";
 import { useContext } from "react";
 

@@ -1,7 +1,7 @@
 import React, { useContext } from "react";
 import styles from "./SessionEnded.module.css";
 import Modal from "react-modal";
-import { AuthContext } from "../context/AuthContext";
+import { AuthContext } from "../Context/AuthContext";
 import { useNavigate } from "react-router-dom";
 
 const SessionEnded = ({ isOpen, onClose }) => {

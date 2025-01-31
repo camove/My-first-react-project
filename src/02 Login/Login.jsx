@@ -2,7 +2,7 @@ import React, { useContext, useState } from "react";
 import styles from "./Login.module.css";
 import { useNavigate } from "react-router";
 import { collection, query, where, getDocs } from "firebase/firestore";
-import { AuthContext } from "../context/AuthContext";
+import { AuthContext } from "../Context/AuthContext";
 import { db } from "../../firebase";
 import toast, { Toaster } from "react-hot-toast";
 

@@ -1,7 +1,7 @@
 import { useContext, useEffect, useState, useRef } from "react";
 import { NavLink, useLocation, useNavigate, useParams } from "react-router-dom";
 import styles from "./NavBar.module.css";
-import { AuthContext } from "../context/AuthContext";
+import { AuthContext } from "../Context/AuthContext";
 import Logout from "../06 Logout/Logout";
 import DeleteAccount from "../07 DeleteAccount/DeleteAccount";
 import SessionEnded from "../Utils/SessionEnded";
