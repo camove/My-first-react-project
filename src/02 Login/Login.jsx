@@ -84,7 +84,7 @@ const Login = () => {
               required
             />
             <div className={styles.inputIcons}>
-              <img src="/src/assets/envelope.svg" />
+              <img src="../assets/envelope.svg" />
             </div>
           </div>
           <div className={styles.inputCell}>
@@ -98,7 +98,7 @@ const Login = () => {
               required
             />
             <div className={styles.inputIcons}>
-              <img src="/src/assets/lock.svg" />
+              <img src="../assets/lock.svg" />
             </div>
           </div>
 

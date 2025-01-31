@@ -145,11 +145,11 @@ const NavBar = () => {
         {/* daca isMenuOpen este true se afiseaza iconita X, daca nu iconita 'hamburger'*/}
         {isMenuOpen ? (
           <div className={styles.closeIcon}>
-            <img src="/src/assets/xmark.svg" />
+            <img src="../assets/xmark.svg" />
           </div>
         ) : (
           <div className={styles.hamburgerIcon}>
-            <img src="/src/assets/bars.svg" />
+            <img src="../assets/bars.svg" />
           </div>
         )}
       </button>

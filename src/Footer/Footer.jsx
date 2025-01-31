@@ -14,13 +14,13 @@ const Footer = () => {
           <h2>Follow Us</h2>
           <div className={styles.socialIcons}>
             <a href="https://facebook.com" target="_blank" rel="noopener noreferrer">
-              <img src="/src/assets/facebook-f.svg" alt="Facebook" />
+              <img src="../assets/facebook-f.svg" alt="Facebook" />
             </a>
             <a href="https://twitter.com" target="_blank" rel="noopener noreferrer">
-              <img src="/src/assets/x-twitter.svg" alt="Twitter" />
+              <img src="../assets/x-twitter.svg" alt="Twitter" />
             </a>
             <a href="https://instagram.com" target="_blank" rel="noopener noreferrer">
-              <img src="/src/assets/instagram.svg" alt="Instagram" />
+              <img src="../assets/instagram.svg" alt="Instagram" />
             </a>
           </div>
         </div>

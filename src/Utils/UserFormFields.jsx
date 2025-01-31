@@ -14,35 +14,35 @@ const UserFormFields = ({ formData = {}, setFormData, errors = {}, validate }) =
             type="email" id="email" name="email" placeholder="E-mail:" value={formData.email || ''} onChange={setFormData} onBlur={validate} required />
           {errors.email && <p>{errors.email}</p>}
           <div className={styles.inputIcons}>
-            <img src="/src/assets/envelope.svg"/>
+            <img src="../assets/envelope.svg"/>
           </div>
         </div>
         <div className={styles.inputCell}>
           <input type="password" id="password" name="password" placeholder="Password:" value={formData.password || ''} onChange={setFormData} onBlur={validate} required />
           {errors.password && <p>{errors.password}</p>}
           <div className={styles.inputIcons}>
-            <img src="/src/assets/lock.svg"/>
+            <img src="../assets/lock.svg"/>
           </div>
         </div>
         <div className={styles.inputCell}>
           <input type="password" id="repeatPassword" name="repeatPassword" placeholder="Repeat password:" value={formData.repeatPassword || ''} onChange={setFormData} onBlur={validate} required />
           {errors.repeatPassword && <p>{errors.repeatPassword}</p>}
           <div className={styles.inputIcons}>
-            <img src="/src/assets/lock.svg"/>
+            <img src="../assets/lock.svg"/>
           </div>
         </div>
         <div className={styles.inputCell}>
           <input type="text" id="firstName" name="firstName" placeholder="First Name:" value={formData.firstName || ''} onChange={setFormData} onBlur={validate} required/>
           {errors.firstName && <p>{errors.firstName}</p>}
           <div className={styles.inputIcons}>
-            <img src="/src/assets/user.svg"/>
+            <img src="../assets/user.svg"/>
           </div>
         </div>
         <div className={styles.inputCell}>
           <input type="text" id="lastName" name="lastName" placeholder="Last Name:" value={formData.lastName || ''} onChange={setFormData} onBlur={validate} required />
           {errors.lastName && <p>{errors.lastName}</p>}
           <div className={styles.inputIcons}>
-            <img src="/src/assets/user.svg"/>
+            <img src="../assets/user.svg"/>
           </div>
         </div>
         <div className={styles.inputCell}>
